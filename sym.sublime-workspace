@@ -1,0 +1,795 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"E",
+				"EntityType"
+			],
+			[
+				"A",
+				"App"
+			],
+			[
+				"vb",
+				"vbs_array"
+			],
+			[
+				"Sym",
+				"Symfony"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"Global",
+				"globalProgress"
+			],
+			[
+				"setUpa",
+				"setUpdateService"
+			],
+			[
+				"stora",
+				"storageFias"
+			],
+			[
+				"checkP",
+				"checkParams"
+			],
+			[
+				"priva",
+				"private"
+			],
+			[
+				"publi",
+				"public"
+			],
+			[
+				"swit",
+				"switch\tswitch …"
+			],
+			[
+				"__",
+				"__construct\tFormController"
+			],
+			[
+				"curlH",
+				"curlHandler"
+			],
+			[
+				"md",
+				"md5"
+			],
+			[
+				"singl",
+				"singleton\tContainer"
+			],
+			[
+				"InputA",
+				"InputArgument"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/Controller/ArticleController.php",
+			"settings":
+			{
+				"buffer_size": 1344,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/article/homepage.html.twig",
+			"settings":
+			{
+				"buffer_size": 4599,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/article/show.html.twig",
+			"settings":
+			{
+				"buffer_size": 6888,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/base.html.twig",
+			"settings":
+			{
+				"buffer_size": 4136,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/laravel-distr/HSVM/laraval/backup/symfony4/tutorial/templates/article.html.twig",
+			"settings":
+			{
+				"buffer_size": 6336,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/js/article_show.js",
+			"settings":
+			{
+				"buffer_size": 410,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ya",
+				"Set Syntax: YAML"
+			],
+			[
+				"twig",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"php sy",
+				"Set Syntax: PHP"
+			],
+			[
+				"j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"git",
+				"Git: Gui"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"mat",
+				"Material Theme: Configuration"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"cla",
+				"PHP Class browser: Open Browser"
+			],
+			[
+				"class",
+				"PHP Class browser: Open Browser"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"emmet",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"Emmet",
+				"Emmet: Expand Abbreviation"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 178.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/laravel-distr/HSVM/laraval/octobercms",
+		"/D/laravel-distr/HSVM/laraval/octobercms/config",
+		"/D/laravel-distr/HSVM/laraval/octobercms/config/packages",
+		"/D/laravel-distr/HSVM/laraval/octobercms/config/packages/dev",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/js",
+		"/D/laravel-distr/HSVM/laraval/octobercms/templates",
+		"/D/laravel-distr/HSVM/laraval/octobercms/templates/article"
+	],
+	"file_history":
+	[
+		"/D/laravel-distr/HSVM/laraval/octobercms/config/routes.yaml",
+		"/D/laravel-distr/HSVM/laraval/octobercms/composer.json",
+		"/D/laravel-distr/HSVM/laraval/octobercms/sym.sublime-project",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Entity/VerBlockStages.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/.env",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Admin/VerProcessAdmin.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/config/services.yaml",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Admin/VerBlockStagesAdmin.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Controller/NormalizationController.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/vendor/sonata-project/admin-bundle/src/Datagrid/ListMapper.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Entity/VerProcStages.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Entity/VerProcess.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/vendor/sonata-project/admin-bundle/src/Form/DataTransformer/ModelToIdPropertyTransformer.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/vendor/sonata-project/admin-bundle/src/Form/Type/ModelAutocompleteType.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/vendor/symfony/options-resolver/OptionsResolver.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Form/Type/VerBlockType.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Entity/VerBlocks.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/vendor/doctrine/doctrine-bundle/Repository/ServiceEntityRepository.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Repository/VerBlocksRepository.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Form/Type/VerKindType.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Entity/VerKinds.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/config/packages/doctrine.yaml",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Admin/VerBlocksAdmin.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/vendor/sonata-project/admin-bundle/src/Form/FormMapper.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Admin/EventListener/AddNameFieldSubscriber.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/templates/process/index.html.twig",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Form/VerBlocksType.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/vendor/sonata-project/admin-bundle/src/Admin/AbstractAdmin.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/kod.sublime-project",
+		"/D/laravel-distr/HSVM/laraval/kodicms/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/SequenceGenerator.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/CustomIdGenerator.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/vendor/doctrine/orm/lib/Doctrine/ORM/Id/AssignedGenerator.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/vendor/symfony/dependency-injection/Loader/Configurator/Traits/ClassTrait.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Table.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Migrations/Version20190913073719.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Annotation.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/config/packages/framework.yaml",
+		"/D/work/Поручения/РАзное/Цена сделки/1.sql",
+		"/D/laravel-distr/HSVM/laraval/kodicms/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/ClassMetadataInfo.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/config/packages/sonata_admin.yaml",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Controller/ProcessController.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/templates/normalization/index.html.twig",
+		"/D/laravel-distr/HSVM/laraval/kodicms/templates/base.html.twig",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Controller/TaskController.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Entity/VerKind.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/vendor/symfony/form/Extension/Core/Type/TextType.php",
+		"/D/work/Web_exchange/fias-master/src/task/Unpack.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/laravel/framework/src/Illuminate/Contracts/Filesystem/Filesystem.php",
+		"/D/work/Web_exchange/fias-master/staging/install.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/plugins/salxig/fias/contracts/DownloadService.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/plugins/salxig/fias/classes/DownloadServiceCurl.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/plugins/salxig/fias/classes/UpdateServiceSoap.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/plugins/salxig/fias/contracts/DirectoryService.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/plugins/salxig/fias/classes/DirectoryServiceLocal.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/plugins/salxig/fias/console/FiasDatabaseInstall.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/laravel/framework/src/Illuminate/Console/Command.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/symfony/console/Style/SymfonyStyle.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/symfony/console/Output/OutputInterface.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/symfony/console/Output/Output.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/symfony/console/Input/InputOption.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/symfony/console/Helper/ProgressBar.php",
+		"/D/work/Utilities/sublimetext/Data/Packages/Package Control/Package Control.sublime-settings",
+		"/D/work/Utilities/sublimetext/Data/Packages/User/PHP Companion.sublime-settings",
+		"/D/work/Utilities/sublimetext/Data/Packages/User/ProjectPHPClassBrowser.sublime-settings",
+		"/D/laravel-distr/HSVM/laraval/kodicms/vendor/symfony/http-foundation/Request.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Controller/HelpController.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Controller/DefaultController.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/config/routes.yaml",
+		"/D/laravel-distr/HSVM/laraval/kodicms/src/Kernel.php",
+		"/D/laravel-distr/HSVM/laraval/kodicms/public/index.php",
+		"/C/xampp/htdocs/works/recalc_request/index.php",
+		"//r52p-01-app1/d$/to_fir/R52GZK0_ora_9681_ZKOKS_TRIG_TRACE.trc",
+		"//r52p-01-app1/d$/to_fir/R52GZK0_ora_9994_REQUEST_TRIG_TRACE.trc",
+		"//r52p-01-app1/d$/to_fir/R52GZK0_ora_9994_trace_file.trc",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/storage/logs/system.log",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/curl.log",
+		"/d/@USER_~1/AppData/Local/Temp/Rar$DRa0.484/download.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Exceptions/ServiceAlreadyExists.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/symfony/console/Style/OutputStyle.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/symfony/console/Command/Command.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/symfony/console/Output/ConsoleOutputInterface.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/symfony/console/Output/BufferedOutput.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/symfony/console/Output/ConsoleOutput.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/modules/backend/widgets/ReportContainer.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/plugins/october/drivers/vendor/league/flysystem/src/Adapter/AbstractAdapter.php",
+		"/D/work/Web_exchange/fias-master/src/service/downloader/Curl.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/plugins/salxig/fias/contracts/UpdateService.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/plugins/salxig/fias/Provider/FiasServiceProvider.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/plugins/salxig/fias/Plugin.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/plugins/salxig/fias/components/Weather.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/symfony/finder/Iterator/RecursiveDirectoryIterator.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/plugins/october/drivers/vendor/league/flysystem/src/File.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/laravel/framework/src/Illuminate/Support/Facades/File.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/modules/cms/helpers/File.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/plugins/salxig/fias/config/config.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemManager.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/league/flysystem/src/Adapter/Local.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/symfony/finder/SplFileInfo.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/league/flysystem/src/Adapter/AbstractAdapter.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/league/flysystem/src/Filesystem.php",
+		"/D/laravel-distr/HSVM/any_libs/multicurl-0.1.0/MultiCurlQueue.php",
+		"/D/laravel-distr/HSVM/any_libs/multicurl-0.1.0/MultiCurlRequest.php",
+		"/D/laravel-distr/HSVM/any_libs/multicurl-0.1.0/MultiCurl.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/october/rain/src/Network/Http.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/SoapWrapper.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/plugins/salxig/fias/models/settings/fields.yaml",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/plugins/salxig/fias/models/settings/fields_bck.yaml",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/october/rain/src/Network/NetworkServiceProvider.php",
+		"//r52p-01-app1/d$/Distr/R52GZK0_ora_23040.trm",
+		"//r52p-01-app1/d$/Distr/R52GZK0_ora_23040.trc",
+		"//r52p-01-app1/d$/Distr/R52GZK0_ora_1832.trm",
+		"//r52p-01-app1/d$/Distr/R52GZK0_ora_1832.trc",
+		"/D/@USER_PROFILE/Downloads/раздел_2.2.1-Здания-в_отчетном_периоде с площадью (2) (1).sql",
+		"/D/work/Поручения/ОКиАД/раздел_2.2.1-Здания-в_отчетном_периоде с площадью + связь с ЗУ.sql",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/laravel/framework/src/Illuminate/Contracts/Filesystem/Factory.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/october/rain/src/Filesystem/Filesystem.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php",
+		"/D/work/Web_exchange/fias-master/src/service/filesystem/DirectoryInterface.php",
+		"/D/work/Web_exchange/fias-master/src/service/filesystem/Directory.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/sebastian/resource-operations/src/ResourceOperations.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemAdapter.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/laravel/framework/src/Illuminate/Support/Facades/Storage.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/league/flysystem/src/Config.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/league/flysystem/src/Adapter/Ftp.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/league/flysystem/src/Adapter/Polyfill/StreamedCopyTrait.php",
+		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/league/flysystem/src/File.php"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 136.0,
+		"where_history":
+		[
+			"D:\\laravel-distr\\HSVM\\laraval\\kodicms",
+			"D:\\laravel-distr\\HSVM\\laraval\\octobercms\\",
+			"D:\\laravel-distr\\HSVM\\laraval\\octobercms\\public\\vendor\\",
+			"D:\\laravel-distr\\HSVM\\laraval\\octobercms\\public\\vendor\\league\\flysystem",
+			"D:\\laravel-distr\\HSVM\\laraval\\octobercms\\public\\",
+			"D:\\laravel-distr\\HSVM\\laraval\\octobercms\\public\\vendor",
+			"D:\\laravel-distr\\HSVM\\fias-master"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ClassMetadataInfo",
+			"ClassMetadataInfo\n                        //'db_ip' => '10.52.141.18',\n                        'sid'   => 'ORCL',\n                        'user'  => 'system',\n                        'pass'  => 'oracle',",
+			"'db_ip'   => '192.168.0.103',\n                        //'db_ip' => '10.52.141.18',\n                        'sid'   => 'ORCL',\n                        'user'  => 'system',\n                        'pass'  => 'oracle',",
+			";\n",
+			"ConsoleSectionOutput",
+			"->\n",
+			"storage",
+			"curl_init",
+			"curl_multi_exec",
+			"ETag",
+			"Status: 206 Partial Content",
+			"url(",
+			"glob(",
+			"glob",
+			"SplFileObject",
+			"storage_path",
+			"DirectoryIterator",
+			"curl_exec",
+			"download",
+			"cms_page_as_wysiwyg",
+			"implement",
+			"__call"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/Controller/ArticleController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1001,
+								1001
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 81.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/article/homepage.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4599,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								787,
+								787
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/article/show.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6888,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1243,
+								1243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "templates/base.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								985,
+								985
+							]
+						],
+						"settings":
+						{
+							"rulers":
+							[
+								120
+							],
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 756.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/laravel-distr/HSVM/laraval/backup/symfony4/tutorial/templates/article.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								6336
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1566.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/js/article_show.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 410,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								387,
+								387
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 27.0
+	},
+	"pinned_build_system": "",
+	"project": "sym.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"DirectoryIterator",
+				"public\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php"
+			],
+			[
+				"flysystem",
+				"public\\vendor\\league\\flysystem\\src\\Filesystem.php"
+			],
+			[
+				"Illuminate\\Contracts\\Filesystem\\Filesystem",
+				"public\\vendor\\laravel\\framework\\src\\Illuminate\\Contracts\\Filesystem\\Filesystem.php"
+			],
+			[
+				"filesystem",
+				"public\\vendor\\laravel\\framework\\src\\Illuminate\\Contracts\\Filesystem\\Factory.php"
+			],
+			[
+				"Illuminate\\Filesystem\\Filesystem",
+				"public\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php"
+			],
+			[
+				"filesys",
+				"public\\vendor\\league\\flysystem\\src\\Filesystem.php"
+			],
+			[
+				"file",
+				"public\\vendor\\league\\flysystem\\src\\File.php"
+			],
+			[
+				"glob",
+				"public\\vendor\\symfony\\finder\\Glob.php"
+			],
+			[
+				"storage",
+				"public\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Storage.php"
+			],
+			[
+				"directory",
+				"public\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php"
+			],
+			[
+				"stora",
+				"public\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Storage.php"
+			],
+			[
+				"Illuminate/Container/Container",
+				"public\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php"
+			],
+			[
+				"app",
+				"public\\bootstrap\\app.php"
+			],
+			[
+				"cache store",
+				"public\\vendor\\laravel\\framework\\src\\Illuminate\\Contracts\\Cache\\Store.php"
+			],
+			[
+				"interface",
+				"public\\vendor\\symfony\\console\\Helper\\HelperInterface.php"
+			],
+			[
+				"soap",
+				"vendor\\artisaninweb\\laravel-soap\\src\\Artisaninweb\\SoapWrapper\\SoapWrapper.php"
+			],
+			[
+				"servicepro",
+				"modules\\backend\\ServiceProvider.php"
+			],
+			[
+				"formco",
+				"modules\\backend\\behaviors\\FormController.php"
+			],
+			[
+				"model",
+				"vendor\\october\\rain\\src\\Database\\Model.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\laravel-distr\\HSVM\\laraval\\kodicms\\kod.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 334.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
