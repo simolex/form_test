@@ -41,6 +41,12 @@
             "config/packages/dev/easy_log_handler.yaml"
         ]
     },
+    "knplabs/knp-markdown-bundle": {
+        "version": "1.7.1"
+    },
+    "michelf/php-markdown": {
+        "version": "1.8.0"
+    },
     "monolog/monolog": {
         "version": "1.25.1"
     },
@@ -116,9 +122,6 @@
         "files": [
             "config/packages/dev/debug.yaml"
         ]
-    },
-    "symfony/debug-pack": {
-        "version": "v1.0.7"
     },
     "symfony/dependency-injection": {
         "version": "v4.3.4"
