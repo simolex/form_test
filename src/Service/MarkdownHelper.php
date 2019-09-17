@@ -20,6 +20,7 @@ class MarkdownHelper
         bool $isDebug
     )
     {
+
         $this->cache = $cache;
         $this->markdown = $markdown;
         $this->logger = $markdownLogger;
