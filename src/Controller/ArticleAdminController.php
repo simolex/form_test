@@ -16,6 +16,7 @@ class ArticleAdminController extends AbstractController
      */
     public function new(EntityManagerInterface $em)
     {
+        die('todo');
         $article = new Article();
         $article->setTitle('Why Asteroids Taste Like Bacon')
             ->setSlug('why-asteroids-taste-like-bacon-'.rand(100, 999))
