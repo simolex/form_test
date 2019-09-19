@@ -22,6 +22,8 @@
                     <a href="{{ path('article_show', {slug: article.slug}) }}">
                         <img class="article-img" src="{{ asset(article.imagePath) }}">
                         <div class="article-title d-inline-block pl-3 align-middle">
+
+                            <small>({{ article.comments|length }} comments)</small>
                             <span>{{ article.title }}</span>
                             <br>
                             <span class="align-left article-details">
