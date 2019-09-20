@@ -22,7 +22,13 @@
                     <a href="{{ path('article_show', {slug: article.slug}) }}">
                         <img class="article-img" src="{{ asset(article.imagePath) }}">
                         <div class="article-title d-inline-block pl-3 align-middle">
-
+                            <br>
+                            {% for tag in article.tags %}
+                                <small>
+                                    <span class="badge badge-light">{{ tag.name }}</span>
+                                </small>
+                            {% endfor %}
+                            <br>
                             <small>({{ article.nonDeletedComments|length }} comments)</small>
                             <span>{{ article.title }}</span>
                             <br>
