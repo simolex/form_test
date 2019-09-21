@@ -29,10 +29,9 @@ class ArticleFixtures extends BaseFixture implements DependentFixtureInterface
 
     public function loadData(ObjectManager $manager)
     {
-        $this->createMany(
-            Article::class,
-            10,
-            function(Article $article, $count) use ($manager) {
+        $this->createMany(10, 'App\Entity\Article', function($count) use ($manager) {
+
+                $article = new Article();
                 $article->setTitle($this->faker->randomElement(self::$articleTitles))
                     //->setSlug($this->faker->slug)
                     ->setContent(<<<EOF
@@ -65,6 +64,7 @@ EOF
                 foreach ($tags as $tag) {
                     $article->addTag($tag);
                 }
+                return $article;
                 /*$comment1 = new Comment();
                 $comment1->setAuthorName('Mike Ferengi');
                 $comment1->setContent('I ate a normal rock once. It did NOT taste like bacon!');
