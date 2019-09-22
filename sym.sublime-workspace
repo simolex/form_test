@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"us",
+				"user"
+			],
+			[
 				"ad",
 				"addSelect〔function〕"
 			],
@@ -84,55 +88,37 @@
 	"buffers":
 	[
 		{
-			"file": ".env",
+			"file": "src/Controller/ArticleAdminController.php",
 			"settings":
 			{
-				"buffer_size": 1523,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/Controller/ArticleController.php",
-			"settings":
-			{
-				"buffer_size": 2223,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/Repository/ArticleRepository.php",
-			"settings":
-			{
-				"buffer_size": 2391,
+				"buffer_size": 2574,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/article/show.html.twig",
+			"file": "src/Controller/CommentAdminController.php",
 			"settings":
 			{
-				"buffer_size": 4047,
+				"buffer_size": 1149,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/article/homepage.html.twig",
+			"file": "templates/base.html.twig",
 			"settings":
 			{
-				"buffer_size": 5203,
+				"buffer_size": 6058,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/DataFixtures/ArticleFixtures.php",
+			"file": "config/packages/security.yaml",
 			"settings":
 			{
-				"buffer_size": 3844,
+				"buffer_size": 1857,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -251,31 +237,54 @@
 	"expanded_folders":
 	[
 		"/E/work/Laravel/lararoot/octobercms",
+		"/E/work/Laravel/lararoot/octobercms/config",
+		"/E/work/Laravel/lararoot/octobercms/config/packages",
 		"/E/work/Laravel/lararoot/octobercms/src",
 		"/E/work/Laravel/lararoot/octobercms/src/Controller",
-		"/E/work/Laravel/lararoot/octobercms/src/Repository",
 		"/E/work/Laravel/lararoot/octobercms/templates",
-		"/E/work/Laravel/lararoot/octobercms/templates/article",
-		"/E/work/Laravel/lararoot/octobercms/templates/comment_admin"
+		"/E/work/Laravel/lararoot/octobercms/templates/account",
+		"/E/work/Laravel/lararoot/octobercms/templates/security",
+		"/E/work/Laravel/lararoot/octobercms/translations"
 	],
 	"file_history":
 	[
+		"/E/work/Laravel/lararoot/octobercms/src/Security/LoginFormAuthenticator.php",
+		"/E/work/Laravel/lararoot/octobercms/src/Controller/ArticleAdminController.php",
+		"/E/work/Laravel/lararoot/octobercms/src/Entity/User.php",
+		"/E/work/Laravel/lararoot/octobercms/src/Service/MarkdownHelper.php",
+		"/E/work/Laravel/lararoot/octobercms/templates/base.html.twig",
+		"/E/work/Laravel/lararoot/octobercms/src/DataFixtures/UserFixture.php",
+		"/E/work/Laravel/lararoot/octobercms/src/Controller/BaseController.php",
+		"/E/work/Laravel/lararoot/octobercms/templates/account/index.html.twig",
+		"/E/work/Laravel/lararoot/octobercms/src/Controller/AccountController.php",
+		"/E/work/Laravel/lararoot/octobercms/src/Controller/CommentAdminController.php",
+		"/E/work/Laravel/lararoot/octobercms/config/packages/security.yaml",
+		"/E/work/Laravel/lararoot/octobercms/templates/security/login.html.twig",
+		"/E/work/Laravel/lararoot/octobercms/public/css/algolia-autocomplete.css",
+		"/E/work/Laravel/lararoot/octobercms/translations/security.en.yaml",
+		"/E/work/Laravel/lararoot/octobercms/public/css/login.css",
+		"/E/work/Laravel/lararoot/octobercms/public/css/styles.css",
+		"/E/work/Laravel/lararoot/octobercms/public/css/account.css",
+		"/E/work/Laravel/lararoot/octobercms/src/Controller/SecurityController.php",
+		"/E/work/Laravel/lararoot/octobercms/templates/article/homepage.html.twig",
+		"/E/work/Laravel/lararoot/octobercms/templates/article/show.html.twig",
+		"/E/work/Laravel/lararoot/octobercms/src/DataFixtures/TagFixture.php",
 		"/E/work/Laravel/lararoot/octobercms/src/DataFixtures/CommentFixture.php",
+		"/E/work/Laravel/lararoot/octobercms/src/DataFixtures/BaseFixture.php",
+		"/E/work/Laravel/lararoot/octobercms/src/DataFixtures/ArticleFixtures.php",
+		"/E/work/Laravel/lararoot/octobercms/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/AbstractFixture.php",
+		"/E/work/Laravel/lararoot/octobercms/vendor/doctrine/doctrine-fixtures-bundle/Fixture.php",
+		"/E/work/Laravel/lararoot/octobercms/.env",
+		"/E/work/Laravel/lararoot/octobercms/src/Controller/ArticleController.php",
+		"/E/work/Laravel/lararoot/octobercms/src/Repository/ArticleRepository.php",
 		"/E/work/Laravel/lararoot/octobercms/src/Entity/Comment.php",
 		"/E/work/Laravel/lararoot/octobercms/config/packages/twig_extensions.yaml",
-		"/E/work/Laravel/lararoot/octobercms/src/DataFixtures/TagFixture.php",
 		"/E/work/Laravel/lararoot/octobercms/src/Entity/Tag.php",
 		"/E/work/Laravel/lararoot/octobercms/config/packages/knp_paginator.yaml",
 		"/E/work/Laravel/lararoot/octobercms/src/Repository/CommentRepository.php",
-		"/E/work/Laravel/lararoot/octobercms/src/Controller/CommentAdminController.php",
-		"/E/work/Laravel/lararoot/octobercms/src/Repository/ArticleRepository.php",
 		"/E/work/Laravel/lararoot/octobercms/src/Entity/Article.php",
-		"/E/work/Laravel/lararoot/octobercms/src/Controller/ArticleAdminController.php",
-		"/E/work/Laravel/lararoot/octobercms/src/DataFixtures/BaseFixture.php",
 		"/E/work/Laravel/lararoot/octobercms/templates/comment_admin/index.html.twig",
-		"/E/work/Laravel/lararoot/octobercms/templates/article/homepage.html.twig",
 		"/E/work/Laravel/lararoot/octobercms/templates/content_base.html.twig",
-		"/E/work/Laravel/lararoot/octobercms/public/css/styles.css",
 		"/E/work/Laravel/lararoot/octobercms/src/Migrations/Version20190918203141.php",
 		"/E/work/Laravel/lararoot/octobercms/config/packages/stof_doctrine_extensions.yaml",
 		"/C/Users/AlexS/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
@@ -284,15 +293,11 @@
 		"/C/Users/AlexS/AppData/Roaming/Sublime Text 3/Packages/PHP Completions Kit/README.md",
 		"/C/Users/AlexS/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
 		"/E/work/Laravel/lararoot/octobercms/vendor/symfony/dependency-injection/ServiceSubscriberInterface.php",
-		"/E/work/Laravel/lararoot/octobercms/src/Service/MarkdownHelper.php",
 		"/E/work/Laravel/lararoot/octobercms/src/Twig/AppExtension.php",
 		"/E/work/Laravel/lararoot/octobercms/src/Twig/AppRuntime.php",
-		"/E/work/Laravel/lararoot/octobercms/templates/article/show.html.twig",
-		"/E/work/Laravel/lararoot/octobercms/src/Controller/ArticleController.php",
 		"/E/work/Laravel/lararoot/octobercms/vendor/knplabs/knp-time-bundle/Knp/Bundle/TimeBundle/KnpTimeBundle.php",
 		"/E/work/Laravel/lararoot/octobercms/config/services_dev.yaml",
 		"/E/work/Laravel/lararoot/octobercms/public/js/article_show.js",
-		"/E/work/Laravel/lararoot/octobercms/templates/base.html.twig",
 		"/E/work/Laravel/lararoot/octobercms/config/packages/httplug.yaml",
 		"/E/work/Laravel/lararoot/octobercms/src/Helper/LoggerTrait.php",
 		"/E/work/Laravel/lararoot/octobercms/config/services.yaml",
@@ -370,24 +375,7 @@
 		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/symfony/console/Helper/ProgressBar.php",
 		"/D/work/Utilities/sublimetext/Data/Packages/Package Control/Package Control.sublime-settings",
 		"/D/work/Utilities/sublimetext/Data/Packages/User/PHP Companion.sublime-settings",
-		"/D/work/Utilities/sublimetext/Data/Packages/User/ProjectPHPClassBrowser.sublime-settings",
-		"/D/laravel-distr/HSVM/laraval/kodicms/vendor/symfony/http-foundation/Request.php",
-		"/D/laravel-distr/HSVM/laraval/kodicms/src/Controller/HelpController.php",
-		"/D/laravel-distr/HSVM/laraval/kodicms/src/Controller/DefaultController.php",
-		"/D/laravel-distr/HSVM/laraval/kodicms/config/routes.yaml",
-		"/D/laravel-distr/HSVM/laraval/kodicms/src/Kernel.php",
-		"/D/laravel-distr/HSVM/laraval/kodicms/public/index.php",
-		"/C/xampp/htdocs/works/recalc_request/index.php",
-		"//r52p-01-app1/d$/to_fir/R52GZK0_ora_9681_ZKOKS_TRIG_TRACE.trc",
-		"//r52p-01-app1/d$/to_fir/R52GZK0_ora_9994_REQUEST_TRIG_TRACE.trc",
-		"//r52p-01-app1/d$/to_fir/R52GZK0_ora_9994_trace_file.trc",
-		"/D/laravel-distr/HSVM/laraval/octobercms/public/storage/logs/system.log",
-		"/D/laravel-distr/HSVM/laraval/octobercms/public/curl.log",
-		"/d/@USER_~1/AppData/Local/Temp/Rar$DRa0.484/download.php",
-		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Exceptions/ServiceAlreadyExists.php",
-		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/symfony/console/Style/OutputStyle.php",
-		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/symfony/console/Command/Command.php",
-		"/D/laravel-distr/HSVM/laraval/octobercms/public/vendor/symfony/console/Output/ConsoleOutputInterface.php"
+		"/D/work/Utilities/sublimetext/Data/Packages/User/ProjectPHPClassBrowser.sublime-settings"
 	],
 	"find":
 	{
@@ -458,122 +446,61 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": ".env",
+					"file": "src/Controller/ArticleAdminController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1523,
+						"buffer_size": 2574,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1485,
-								1485
+								344,
+								362
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/Controller/ArticleController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2223,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								962,
-								962
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 214.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/Repository/ArticleRepository.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2391,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1411,
-								1411
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 162.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "templates/article/show.html.twig",
+					"buffer": 1,
+					"file": "src/Controller/CommentAdminController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4047,
+						"buffer_size": 1149,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1406,
-								1406
+								378,
+								378
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -583,20 +510,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "templates/article/homepage.html.twig",
+					"buffer": 2,
+					"file": "templates/base.html.twig",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5203,
+						"buffer_size": 6058,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1325,
-								1325
+								3190,
+								3190
 							]
 						],
 						"settings":
@@ -607,42 +534,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 216.0,
+						"translation.y": 810.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "src/DataFixtures/ArticleFixtures.php",
+					"buffer": 3,
+					"file": "config/packages/security.yaml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3844,
+						"buffer_size": 1857,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3088,
-								3088
+								835,
+								835
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 846.0,
+						"translation.y": 108.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

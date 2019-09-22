@@ -171,7 +171,8 @@ html {height:100%}
 }
 
 .show-article-container-border-green {
-    border: solid 1px green;
+    border-top: 3px solid green;
+    border-radius: 3px;
 }
 
 .show-article-img {

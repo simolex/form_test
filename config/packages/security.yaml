@@ -15,15 +15,33 @@ security:
             guard:
                 authenticators:
                     - App\Security\LoginFormAuthenticator
+            logout:
+                path: app_logout
+            remember_me:
+                secret:   '%kernel.secret%'
+                lifetime: 2592000 # 30 days in seconds
 
+    role_hierarchy:
+        ROLE_ADMIN: [ROLE_ADMIN_COMMENT, ROLE_ADMIN_ARTICLE]
             # activate different ways to authenticate
             # https://symfony.com/doc/current/security.html#firewalls-authentication
 
             # https://symfony.com/doc/current/security/impersonating_user.html
             # switch_user: true
+    encoders:
+        App\Entity\User:
+            algorithm: auto #bcrypt
 
     # Easy way to control access for large sections of your site
     # Note: Only the *first* access control that matches will be used
     access_control:
+        # but, definitely allow /login to be accessible anonymously
+        #- { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        # require the user to fully login to change password
+        #- { path: ^/change-password, roles: IS_AUTHENTICATED_FULLY }
+        # if you wanted to force EVERY URL to be protected
+        #- { path: ^/, roles: IS_AUTHENTICATED_REMEMBERED }
+
+        #- { path: ^/, roles: IS_AUTHENTICATED_FULLY }
         # - { path: ^/admin, roles: ROLE_ADMIN }
         # - { path: ^/profile, roles: ROLE_USER }

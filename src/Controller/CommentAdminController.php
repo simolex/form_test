@@ -6,8 +6,12 @@ use App\Repository\CommentRepository;
 use Knp\Component\Pager\PaginatorInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
+/**
+ * @IsGranted("ROLE_ADMIN_COMMENT")
+ */
 class CommentAdminController extends AbstractController
 {
     /**
@@ -17,8 +21,10 @@ class CommentAdminController extends AbstractController
         CommentRepository $repository,
         Request $request,
         PaginatorInterface $paginator
-    )
+        )
     {
+        $this->denyAccessUnlessGranted('ROLE_USER');
+
         $q = $request->query->get('q');
         $queryBuilder = $repository->getWithSearchQueryBuilder($q);
 
