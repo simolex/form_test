@@ -31,7 +31,7 @@ class User implements UserInterface
      * @Assert\NotBlank(message="Please enter an email")
      * @Assert\Email()
      * @Groups("main")
-     *
+     * @Groups("email")
      */
     private $email;
 

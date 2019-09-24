@@ -2,20 +2,23 @@
 
 namespace App\Form\Type;
 
-use App\Form\DataTransformer\EmailToUserTransformer;
 use App\Repository\UserRepository;
 use Symfony\Component\Form\AbstractType;
-use Symfony\Component\Form\Extension\Core\Type\TextType;
+use Symfony\Component\Routing\RouterInterface;
 use Symfony\Component\Form\FormBuilderInterface;
+use App\Form\DataTransformer\EmailToUserTransformer;
 use Symfony\Component\OptionsResolver\OptionsResolver;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
 
 class UserSelectTextType extends AbstractType
 {
     private $userRepository;
+    protected $router;
 
-    public function __construct(UserRepository $userRepository)
+    public function __construct(UserRepository $userRepository, RouterInterface $router)
     {
         $this->userRepository = $userRepository;
+        $this->router = $router;
     }
 
 
@@ -41,7 +44,11 @@ class UserSelectTextType extends AbstractType
             'invalid_message' => 'Hmm, user not found!',
             'finder_callback' => function(UserRepository $userRepository, string $email) {
                 return $userRepository->findOneBy(['email' => $email]);
-            }
+            },
+            'attr' => [
+                'class' => 'js-user-autocomplete',
+                'data-autocomplete-url' => $this->router->generate('admin_utility_users')
+            ],
         ]);
     }
 }

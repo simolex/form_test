@@ -20,7 +20,7 @@ class EmailToUserTransformer implements DataTransformerInterface
     public function transform($value)
     {
         if (null === $value) {
-            return;
+            return '';
         }
         if (!$value instanceof User) {
             throw new \LogicException('The UserSelectTextType can only be used with User objects');
