@@ -2,12 +2,12 @@
 
 namespace App\Entity;
 
-use Doctrine\ORM\Mapping as ORM;
 use App\Repository\ArticleRepository;
-use Gedmo\Mapping\Annotation as Gedmo;
-use Doctrine\Common\Collections\Collection;
+use App\Traits\TimestampableEntityNoSetters;
 use Doctrine\Common\Collections\ArrayCollection;
-use Gedmo\Timestampable\Traits\TimestampableEntity;
+use Doctrine\Common\Collections\Collection;
+use Doctrine\ORM\Mapping as ORM;
+use Gedmo\Mapping\Annotation as Gedmo;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Validator\Context\ExecutionContextInterface;
 
@@ -16,7 +16,8 @@ use Symfony\Component\Validator\Context\ExecutionContextInterface;
  */
 class Article
 {
-    use TimestampableEntity;
+    //use TimestampableEntity;
+    use TimestampableEntityNoSetters;
 
     /**
      * @ORM\Id()
@@ -32,8 +33,8 @@ class Article
     private $title;
 
     /**
-     * @ORM\Column(type="string", length=100, unique=true)
      * @Gedmo\Slug(fields={"title"})
+     * @ORM\Column(type="string", length=100, unique=true)
      */
     private $slug;
 
@@ -71,6 +72,7 @@ class Article
     /**
      * @ORM\ManyToOne(targetEntity="App\Entity\User", inversedBy="articles")
      * @ORM\JoinColumn(nullable=false)
+     * @Assert\NotNull(message="Please set an author")
      */
     private $author;
 
@@ -102,11 +104,11 @@ class Article
         return $this->slug;
     }
 
-    public function setSlug(string $slug): self
+    /*public function setSlug(string $slug): self
     {
         $this->slug = $slug;
         return $this;
-    }
+    }*/
 
     public function getContent(): ?string
     {

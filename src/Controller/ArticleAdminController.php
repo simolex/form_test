@@ -3,7 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Article;
-use App\Form\Type\ArticleFormType;
+use App\Form\ArticleFormType;
 use App\Repository\ArticleRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpFoundation\Request;
@@ -15,10 +15,10 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class ArticleAdminController extends AbstractController
 {
-//@IsGranted("ROLE_ADMIN_ARTICLE")
+
     /**
      * @Route("/admin/article/new", name="admin_article_new")
-     *
+     * @IsGranted("ROLE_ADMIN_ARTICLE")
      */
     public function new(EntityManagerInterface $em, Request $request)
     {

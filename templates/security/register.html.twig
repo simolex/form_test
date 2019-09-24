@@ -2,6 +2,35 @@
 
 {% block title %}Register!{% endblock %}
 
+{# import "_self" as the registrationForm theme #}
+{% form_theme registrationForm _self %}
+
+{% block form_row %}
+    {%- set widget_attr = {} -%}
+    {%- if help is not empty -%}
+        {%- set widget_attr = {attr: {'aria-describedby': id ~"_help"}} -%}
+    {%- endif -%}
+
+    {{- form_label(form, null, {
+            label_attr: { class: 'sr-only' }
+    }) -}}
+    {{- form_errors(form) -}}
+    {{- form_widget(form, widget_attr) -}}
+    {{- form_help(form) -}}
+
+{% endblock %}
+
+{% block _user_registration_form_agreeTerms_row %}
+    <div class="checkbox mb-3">
+        {{ form_errors(form) }}
+        <label>
+            <input type="checkbox" name="{{ full_name }}" required> Agree to terms I for sure read
+        </label>
+    </div>
+{% endblock %}
+
+{# _user_registration_form_agreeTerms #}
+
 {% block stylesheets %}
     {{ parent() }}
 
@@ -9,11 +38,31 @@
 {% endblock %}
 
 {% block body %}
-    <div class="container">
+<div class="container">
     <div class="row">
         <div class="col-sm-12">
+            {{ form_start(registrationForm, {
+                'attr': {'class': 'form-signin'}
+            }) }}
+                <h1 class="h3 mb-3 font-weight-normal">Register</h1>
+                {{ form_row(registrationForm.email, {
+                    attr: { placeholder: 'Email' }
+                }) }}
+                {{ form_row(registrationForm.plainPassword.first, {
+                    attr: { placeholder: 'Password' }
+                }) }}
+                {{ form_row(registrationForm.plainPassword.second, {
+                    attr: { placeholder: 'Re-Password' }
+                }) }}
+                {{ form_row(registrationForm.agreeTerms) }}
+
+                <!-- {{ form_widget(registrationForm) }} -->
+                <button class="btn btn-lg btn-primary btn-block" type="submit">
+                    Register
+                </button>
+            {{ form_end(registrationForm) }}
             {# todo - replace with a Symfony form! #}
-            <form class="form-signin" method="post">
+            {#<form class="form-signin" method="post">
                 <h1 class="h3 mb-3 font-weight-normal">Register</h1>
                 <label for="inputEmail" class="sr-only">Email address</label>
                 <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
@@ -28,7 +77,7 @@
                 <button class="btn btn-lg btn-primary btn-block" type="submit">
                     Register
                 </button>
-            </form>
+            </form>#}
         </div>
     </div>
 </div>

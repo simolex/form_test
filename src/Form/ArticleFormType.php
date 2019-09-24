@@ -1,15 +1,16 @@
 <?php
 
-namespace App\Form\Type;
+namespace App\Form;
 
-use App\Entity\User;
 use App\Entity\Article;
+use App\Entity\User;
+use App\Form\Type\UserSelectTextType;
 use App\Repository\UserRepository;
-use Symfony\Component\Form\AbstractType;
-use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
-use Symfony\Component\OptionsResolver\OptionsResolver;
+use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
+use Symfony\Component\Form\FormBuilderInterface;
+use Symfony\Component\OptionsResolver\OptionsResolver;
 class ArticleFormType extends AbstractType
 {
     protected $userRepository;
@@ -31,7 +32,8 @@ class ArticleFormType extends AbstractType
             ->add('publishedAt', null, [
                 'widget' => 'single_text'
             ])
-            ->add('author', EntityType::class, [
+            ->add('author', UserSelectTextType::class)
+            /*->add('author', EntityType::class , [
                 'class' => User::class,
                 'choice_label' => function(User $user) {
                     return sprintf('(%d) %s', $user->getId(), $user->getEmail());
@@ -39,7 +41,7 @@ class ArticleFormType extends AbstractType
                 'placeholder' => 'Choose an author',
                 'choices' => $this->userRepository->findAllEmailAlphabetical(),
                 'invalid_message' => 'Symfony is too smart for your hacking!'
-            ])
+            ])*/
         ;
     }
 
