@@ -15,14 +15,17 @@ class ArticleFormType extends AbstractType
 {
     protected $userRepository;
 
+
     public function __construct(UserRepository $userRepository)
     {
         $this->userRepository = $userRepository;
+
     }
 
 
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
+
         $builder
             ->add('title',
                 TextType::class, [

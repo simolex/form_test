@@ -62,6 +62,7 @@ class ArticleAdminController extends AbstractController
     {
         //$this->denyAccessUnlessGranted('MANAGE', $article);
 
+
         $form = $this->createForm(ArticleFormType::class, $article);
 
         $form->handleRequest($request);
@@ -72,6 +73,7 @@ class ArticleAdminController extends AbstractController
             $em->persist($article);
             $em->flush();
             $this->addFlash('success', 'Article Updated! Inaccuracies squashed!');
+
             return $this->redirectToRoute('admin_article_edit', [
                 'id' => $article->getId(),
             ]);

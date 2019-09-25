@@ -2,13 +2,14 @@
 
 namespace App\Form\Type;
 
+use App\Entity\User;
+use App\Form\DataTransformer\EmailToUserTransformer;
 use App\Repository\UserRepository;
 use Symfony\Component\Form\AbstractType;
-use Symfony\Component\Routing\RouterInterface;
-use Symfony\Component\Form\FormBuilderInterface;
-use App\Form\DataTransformer\EmailToUserTransformer;
-use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
+use Symfony\Component\Form\FormBuilderInterface;
+use Symfony\Component\OptionsResolver\OptionsResolver;
+use Symfony\Component\Routing\RouterInterface;
 
 class UserSelectTextType extends AbstractType
 {
@@ -20,7 +21,6 @@ class UserSelectTextType extends AbstractType
         $this->userRepository = $userRepository;
         $this->router = $router;
     }
-
 
     /**
      * {@inheritdoc}
@@ -50,5 +50,9 @@ class UserSelectTextType extends AbstractType
                 'data-autocomplete-url' => $this->router->generate('admin_utility_users')
             ],
         ]);
+    }
+
+    public function buildView(FormView $view, FormInterface $form, array $options)
+    {
     }
 }
