@@ -4,13 +4,14 @@ namespace App\Form;
 
 use App\Entity\User;
 use Symfony\Component\Form\AbstractType;
-use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
-use Symfony\Component\Form\Extension\Core\Type\EmailType;
-use Symfony\Component\Form\Extension\Core\Type\PasswordType;
-use Symfony\Component\Form\Extension\Core\Type\RepeatedType;
+use App\Form\Model\UserRegistrationFormModel;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\Validator\Constraints as Assert;
+use Symfony\Component\Form\Extension\Core\Type\EmailType;
+use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
+use Symfony\Component\Form\Extension\Core\Type\PasswordType;
+use Symfony\Component\Form\Extension\Core\Type\RepeatedType;
 
 class UserRegistrationFormType extends AbstractType
 {
@@ -22,7 +23,7 @@ class UserRegistrationFormType extends AbstractType
             // don't use password: avoid EVER setting that on a
             // field that might be persisted
             ->add('plainPassword', RepeatedType::class, [
-                'mapped' => false,
+                //'mapped' => false,
                 'constraints' => [
                     new Assert\NotBlank([
                         'message' => 'Choose a password!'
@@ -39,7 +40,7 @@ class UserRegistrationFormType extends AbstractType
 
             ])
             ->add('agreeTerms', CheckboxType::class, [
-                'mapped' => false,
+                //'mapped' => false,
                 'constraints' => [
                     new Assert\IsTrue([
                         'message' => 'I know, it\'s silly, but you must agree to our terms.'
@@ -52,7 +53,7 @@ class UserRegistrationFormType extends AbstractType
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults([
-            'data_class' => User::class,
+            'data_class' => UserRegistrationFormModel::class,
         ]);
     }
 }

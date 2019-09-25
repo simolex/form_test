@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
     var $locationSelect = $('.js-article-form-location');
     var $specificLocationTarget = $('.js-specific-location-target');
 
@@ -12,10 +13,8 @@ $(document).ready(function() {
                 if (!html) {
                     $specificLocationTarget.find('select').remove();
                     $specificLocationTarget.addClass('d-none');
-
                     return;
                 }
-
                 // Replace the current field and show
                 $specificLocationTarget
                     .html(html)

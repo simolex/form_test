@@ -63,7 +63,7 @@ class User implements UserInterface
     private $token;
 
     /**
-     * @ORM\OneToMany(targetEntity="App\Entity\Article", mappedBy="author")
+     * @ORM\OneToMany(targetEntity="App\Entity\Article", mappedBy="author", fetch="EXTRA_LAZY")
      */
     private $articles;
 
