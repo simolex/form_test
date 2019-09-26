@@ -84,6 +84,20 @@ class ArticleFormType extends AbstractType
             }
         );
 
+        $builder->get('location')->addEventListener(
+            FormEvents::POST_SUBMIT,
+            function(FormEvent $event) {
+                $form = $event->getForm();
+                if (!$form->getData()) {
+                    return;
+                }
+                $this->setupSpecificLocationNameField(
+                    $form->getParent(),
+                    $form->getData()
+                );
+            }
+        );
+
         if ($options['include_published_at']) {
             $builder->add('publishedAt', null, [
                 'widget' => 'single_text',
